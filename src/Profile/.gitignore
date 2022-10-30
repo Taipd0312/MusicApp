@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 # Environment
-appsettings.Development.json
+Customer.Service/appsettings.Development.json
 
 # Debug
 bin
