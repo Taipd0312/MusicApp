@@ -6,7 +6,6 @@
 *.ko
 *.obj
 *.elf
-*.bin
 
 # Linker output
 *.ilk
@@ -52,5 +51,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# VSCode
-*.vs
+# Environment
+appsettings.Development.json
+
+# Debug
+bin
+obj
