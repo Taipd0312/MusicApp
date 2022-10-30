@@ -1,0 +1,7 @@
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.csproj.AssemblyReference.cache
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.AssemblyInfoInputs.cache
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.AssemblyInfo.cs
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.csproj.CoreCompileInputs.cache
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.MvcApplicationPartsAssemblyInfo.cs
+E:\Github repos\Micorservices\MusicApp\src\Profile\Customer.Service\obj\Debug\net6.0\Customer.Service.MvcApplicationPartsAssemblyInfo.cache
