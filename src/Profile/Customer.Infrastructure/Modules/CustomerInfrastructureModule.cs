@@ -16,7 +16,7 @@ namespace Customer.Infrastructure.Modules
                 options.UseSqlServer(configuration.GetConnectionString("CustomerConnectionstring"));
             });
 
-            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
 
             return services;
         }

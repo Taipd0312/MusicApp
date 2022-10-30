@@ -9,13 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\Client\Client
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Profile", "Profile", "{B4E19E65-0B99-4406-A8EA-7147900305AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Service", "src\Profile\Customer.Service\Customer.Service.csproj", "{A8B140F4-AA9A-4212-88E5-305622D702FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Application", "src\Profile\Customer.Application\Customer.Application.csproj", "{F22A8606-064F-4688-8CBC-671080ECB965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Application", "src\Profile\Customer.Application\Customer.Application.csproj", "{F22A8606-064F-4688-8CBC-671080ECB965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Domain", "src\Profile\Customer.Domain\Customer.Domain.csproj", "{C7B1D254-B4AF-4142-8994-6D82FA12574C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Domain", "src\Profile\Customer.Domain\Customer.Domain.csproj", "{C7B1D254-B4AF-4142-8994-6D82FA12574C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customer.Infrastructure", "src\Profile\Customer.Infrastructure\Customer.Infrastructure.csproj", "{4C7696B3-027A-478A-8FEA-E2AEEB34D98B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Infrastructure", "src\Profile\Customer.Infrastructure\Customer.Infrastructure.csproj", "{4C7696B3-027A-478A-8FEA-E2AEEB34D98B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Service", "src\Profile\Customer.Service\Customer.Service.csproj", "{FC4C2604-E41B-4980-8828-2209896615B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,6 @@ Global
 		{9EB81140-C814-47B5-94E9-2B7E7EEC512B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EB81140-C814-47B5-94E9-2B7E7EEC512B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EB81140-C814-47B5-94E9-2B7E7EEC512B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8B140F4-AA9A-4212-88E5-305622D702FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8B140F4-AA9A-4212-88E5-305622D702FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8B140F4-AA9A-4212-88E5-305622D702FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8B140F4-AA9A-4212-88E5-305622D702FA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F22A8606-064F-4688-8CBC-671080ECB965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F22A8606-064F-4688-8CBC-671080ECB965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22A8606-064F-4688-8CBC-671080ECB965}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,6 +39,10 @@ Global
 		{4C7696B3-027A-478A-8FEA-E2AEEB34D98B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7696B3-027A-478A-8FEA-E2AEEB34D98B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7696B3-027A-478A-8FEA-E2AEEB34D98B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4C2604-E41B-4980-8828-2209896615B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4C2604-E41B-4980-8828-2209896615B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4C2604-E41B-4980-8828-2209896615B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4C2604-E41B-4980-8828-2209896615B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,10 +50,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9EB81140-C814-47B5-94E9-2B7E7EEC512B} = {A856A897-B167-4460-9B26-292FB2493AF3}
 		{B4E19E65-0B99-4406-A8EA-7147900305AB} = {A856A897-B167-4460-9B26-292FB2493AF3}
-		{A8B140F4-AA9A-4212-88E5-305622D702FA} = {B4E19E65-0B99-4406-A8EA-7147900305AB}
 		{F22A8606-064F-4688-8CBC-671080ECB965} = {B4E19E65-0B99-4406-A8EA-7147900305AB}
 		{C7B1D254-B4AF-4142-8994-6D82FA12574C} = {B4E19E65-0B99-4406-A8EA-7147900305AB}
 		{4C7696B3-027A-478A-8FEA-E2AEEB34D98B} = {B4E19E65-0B99-4406-A8EA-7147900305AB}
+		{FC4C2604-E41B-4980-8828-2209896615B9} = {B4E19E65-0B99-4406-A8EA-7147900305AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8F4A7D45-A59F-498D-A116-A40AA0294C17}
